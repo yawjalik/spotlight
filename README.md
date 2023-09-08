@@ -1,10 +1,10 @@
-<h1 style="text-align: center">
+<h1 align="center">
     <img src="public/logo.png" width="66" height="66" alt="logo"/>
     <br />
     Spotlight
 </h1>
 
-<p style="text-align: center">
+<p align="center">
     Display your Spotify stats on your bio.
 </p>
 
@@ -15,9 +15,9 @@ user's currently playing track and displays it on their GitHub bio (and possibly
 This app runs a scheduled job every 3 minutes using [node-schedule](https://www.npmjs.com/package/node-schedule) to 
 query for the currently playing track and updates the bio. 
 
-Currently, I have an instance running as a process locally on 
-my own device using [pm2](https://pm2.keymetrics.io/). There are no plans to deploy the app and support multiple users 
-at the moment, but feel free to run it yourself.
+Currently, I have an instance running as a process locally on my own device using [pm2](https://pm2.keymetrics.io/).
+You can see it in action on my [GitHub profile](https://github.com/yawjalik) bio.
+There are no plans to deploy the app and support multiple users at the moment, but feel free to run it yourself.
 
 ## 🚀 Usage
 
