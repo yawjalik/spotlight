@@ -54,6 +54,9 @@ There are no plans to deploy the app and support multiple users at the moment, b
 You may build the app using `npm run build` or `yarn build` and then run it using `npm run start` or `yarn start`.
 Alternatively, you may run the app in development mode using `npm run dev` or `yarn dev`.
 
+In the initial run, you will have to authorize the app to access your Spotify account. You may do so by visiting
+`http://localhost:8888/login` in your browser.
+
 ### Using PM2
 
 [PM2](https://pm2.keymetrics.io/) is a process manager for Node.js applications. It allows you to run your app in the
